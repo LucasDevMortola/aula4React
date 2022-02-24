@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Home from './pages/Home/index.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Aula 4</h1>
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
